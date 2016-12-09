@@ -1,0 +1,632 @@
+/* Responsive web design - DESKTOPK */
+
+a 					{ text-decoration:none; }
+
+
+.clearfix	{
+	clear:both;
+	}
+
+html, body {
+height:100%;
+
+
+}
+
+h1, h2, h3, h4, p, a {
+-webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s;
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in;
+    transition-timing function: linear, ease-in;
+    }
+
+a {
+text-decoration:none;
+}
+/* SLIDER */
+
+
+
+
+/* MAIN THING */
+
+
+body {		background:url(fundo1.png), url(fundo2.png);
+			background-repeat:repeat-x, repeat;
+			margin-top:5px;
+			}
+			
+
+#wrapper 	{ 
+	margin: 0 auto; 
+	max-width: 960px; 
+	width: 960px;
+	max-width:90%;
+	padding: 5px 0; 
+	margin-top:-16px;
+
+
+			}
+
+#home #hbtn {
+	border-top:4px solid #fff;
+	}
+#videos #vbtn {
+	border-top:4px solid #fff;
+	}
+#people #pbtn {
+	border-top:4px solid #fff;
+	}
+#lifeinireland #lbtn {
+	border-top:4px solid #fff;
+	}
+
+	
+
+
+/*HEADER WITH RED BACKGROUND */
+
+header 		{ 
+	height:60px;
+
+			}
+			
+header nav {
+padding:4px 0px 10px 0px;
+z-index:0;
+			}
+
+header nav a	{
+	white-space:nowrap;
+	padding:10px 0.4em 16px 0.4em;
+	display:inline-block;
+	margin-right:2em;
+	border-top:4px solid transparent;
+	font-family: 'Open Sans Condensed','Arial Black', sans-serif;
+	font-size:25px;
+	color:#FFF;
+
+	}
+
+	
+header nav a:hover	{
+		border-top:4px solid #fff;
+		color:#ddd;
+		
+	}
+	
+#flags 		{ 
+	float:left; 
+	padding:20px 15px 0px 10px;
+			}
+#flags ul li {
+	list-style-type:none;
+	display:inline;
+	padding-right:0.3em;
+	}
+
+#socialnetwork		{ 
+	float:right; 
+	padding:20px 10px 0px 15px;
+	z-index:1;
+			}
+			
+#socialnetwork ul li {
+	list-style-type:none;
+	display:inline;
+	padding-left:0.3em;
+	}
+
+
+/* lOGO OF GCD AND 2 THINGS ON THE SIDE */
+
+#gcdlogo {
+background-color:#D8D8D8;
+padding:40px 0px 0px 0px;
+max-width:100%;
+margin:0;
+}
+#gcdlogo  img {
+padding-left:250px;
+max-width:100%;
+height:auto\9;
+}
+
+#gcdlogo hr {
+top:40px;
+}
+
+#pri {
+position:relative;
+float:left;
+left:20%
+}
+
+#seg {
+position:relative;
+float:right;
+right:20%
+}
+
+
+
+/*MIDDLE OF THE WEBSITE - MAIN CONTENT */	
+
+
+#main-content-home {
+	background-color:#D8D8D8;
+	height:650px;
+	}
+#main-content-photos {
+	background-color:#D8D8D8;
+	height:850px;
+	}
+
+#main-content-videosall {
+	background-color:#D8D8D8;
+	height:2850px;
+	}
+#main-content-videos {
+	background-color:#D8D8D8;
+	height:730px;
+	}
+
+#main-content-life {
+	background-color:#D8D8D8;
+	height:890px;
+	}
+
+#main-content-contact {
+	background-color:#D8D8D8;
+	height:450px;
+	}
+#main-content-map {
+	background-color:#D8D8D8;
+	height:400px;
+	}
+#picture {
+	max-width:100%;
+	padding-top:15px;
+	}
+
+#picture img {
+	max-width:100%;
+	border:1px solid #fff;
+	box-shadow: 1px 1px 1px #000;
+	}
+#main-content-home iframe {
+width:80%;
+}
+
+iframe {
+	width:95%;
+	padding:10px 90px 10px 90px;
+	
+	}
+	
+#text {
+	float:left;
+	width:45%;
+	padding:10px 38px 10px 90px;
+	text-align:justify;
+	
+	}
+
+#text h1 {
+	font-size:26px;
+	font-family: 'Lilita', sans-serif;
+	padding-bottom:15px;
+	font-weight:700;
+	}
+#text p {
+	font-size:15px;
+	font-family:Tahoma;
+	font-family: 'Lilita', sans-serif;
+	font-weight:400;
+	line-height:1.5;
+
+	}
+
+
+/*ONLY FOR LIFE IN IRELAND */	
+
+.post a {
+color:#fff;
+text-decoration:none;
+}
+.post h1 {
+	font-family:'Lilita',sans-serif;
+	font-weight:700;
+	font-size:25px;
+	padding:20px 0px 20px 30px;
+	
+	}
+
+	.post:hover {
+	border:2px solid #fff;
+	}
+
+.post {
+	border:2px solid transparent;
+	border-radius:5px;
+	margin-left:20px;
+	color:#fff;
+	background-color:#0A0A2A;
+	text-align:justify;
+	width:95%;
+	height:200px;
+	}
+	
+.post p {
+	font-family:'Lilita',sans-serif;
+	font-size:14px;
+	padding:2px 0px 1px 30px;
+	float:left;
+	width:62.5%;
+	line-height:1.5;
+	}
+
+
+.blah {
+	max-width:100%;
+	float:right;
+	margin:10px 10px 0px 20px;
+}
+.blah img {
+	max-width:100%;
+	border:1px solid #fff;
+	box-shadow:1px 1px 1px #000;
+	}
+#otherposts {
+	margin:15px 0px 5px 1em;
+	}
+
+.post2 a {
+color:#FFF;
+}
+.post2:hover {
+	border:2px solid #fff;
+	}
+.post2 {
+	width:45%;
+	margin:0.5em 0.5em 1em 0.2em;
+	border:2px solid transparent;
+	border-radius:5px;
+	background-color:#8f2227;
+	text-align:justify;
+	width:450px;
+	height:200px;
+	color:#FFF;
+	float:left;
+	}
+
+.post2 h2 {
+	font-family:'Lilita',sans-serif;
+	font-size:15px;
+	padding:12px 2px 5px 30px;
+	width:300px;
+
+	}
+.post2 p {
+	font-family:'Lilita',sans-serif;
+	font-size:13px;
+	padding:10px 20px 5px 30px;
+	width:300px;
+	line-height:1.5;	
+	}
+.blah2 {
+	max-width:100%;
+	float:right;
+	padding:10px 10px 5px 10px;
+	}
+.blah2 img {
+	max-width:100%;
+	border:1px solid #fff;
+	box-shadow:1px 1px 1px #000;
+	}
+
+	#useful-links a, #useful-links h3,  #useful-links p {
+	font-family:'Lilita',sans-serif;
+	padding:5px 2px 0px 30px;
+	}	
+#useful-links a {
+color:#000;
+font-weight:700;
+text-decoration:none;
+}
+#useful-links a:hover {
+text-decoration:underline;
+}
+#useful-links {
+	opacity:0.9;
+	line-height:1.5;
+	margin-left:20px;
+	border-radius:5px;
+	background-color:#8f2227;
+	text-align:justify;
+	width:910px;
+	height:200px;
+	color:#FFF;
+	float:left;
+	}
+#useful-links ul{
+padding-top:5px;
+}
+	
+#useful-links ul li{
+width:430px;
+float:left;
+display:block;
+}
+#useful-links img {
+max-width:100%;
+height:auto;
+padding:10px 0px 10px 0px;
+float:right;
+}
+/*ONLY FOR VIDEO PAGE */	
+
+.videobox {
+	max-width:100%;
+	width:950px;
+	height:680px;
+	padding:20px 5px 10px 5px;
+	background-color:#ccc;
+	}
+.videoboxsmall {
+background-color:#8f2227;
+opacity:0.9;
+width:910px;
+height:680px;
+margin:0 auto;
+border-radius:10px;
+box-shadow:1px 1px 4px #000;
+-moz-box-shadow:1px 1px 4px #000;
+-webkit-box-shadow:1px 1px 4px #000;
+
+}
+.itemVideo iframe {
+	width:90%;
+	padding:0;
+	padding:10px 40px 10px 40px;
+	}
+
+.itemNumber {
+color:#FFF;
+font-size:100px;
+float:left;
+padding-left:40px;
+font-family:'Lilita', sans-serif;
+}
+
+.itemTitle {
+color:#FFF;
+font-family:'Lilita', sans-serif;
+font-size:20px;
+font-weight:bold;
+text-transform:uppercase;
+padding-top:20px;
+}
+
+.itemDescription {
+color:#FFF;
+font-family:'Lilita', sans-serif;
+font-size:14px;
+padding-right:40px;
+}
+.gotoprevious {
+float:left;
+margin-left:50px;
+}
+.gotoprevious:hover {
+background-color:#ff0000;
+}
+.gotoprevious a {
+text-decoration:none;
+color:#FFF;
+font-family:'Lilita', sans-serif;
+font-size:15px;
+}
+
+.gotonext {
+float:right;
+margin-right:50px;
+}
+.gotonext:hover {
+background-color:#ff0000;
+}
+.gotonext a {
+text-decoration:none;
+color:#FFF;
+font-family:'Lilita', sans-serif;
+font-size:15px;
+}
+
+/* ONLY FOR SITE MAP*/
+
+#lists {
+padding-bottom:40px;
+width:900px;
+margin:0px 30px 10px 30px;
+background-color:#8f2227;
+border-radius:10px;
+color:#fff;
+font-family:'Lilita', Sans-serif;
+}
+#lists a {
+color:#fff;
+font-weight:400;
+}
+#lists a:hover {
+text-decoration:underline;
+}
+#lists h2 {
+font-weight:700;
+text-decoration:underline;
+padding-bottom:10px;
+}
+.horizontal {
+width:900px;
+height:130px;
+padding:10px 1em 10px 3em;
+}
+#lists ul {
+float:left;
+font-size:20px;
+width:280px;
+display:block;
+}
+#lists ul li {
+text-indent:10px;
+line-height:1.5;
+font-size:16px;
+list-style-type:none;
+}
+
+
+
+/* the THREE COLUMNS */
+
+#columns {
+	padding-top:20px;
+	background-color:#424242;
+	height:410px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	
+	-moz-box-shadow: 0px -2px 5px #000;
+	-webkit-box-shadow:0px -2px 5px #000;
+	box-shadow: 0px -2px 5px #000;
+	}
+#columns h3 {
+padding-bottom:10px;
+font-size:18px;
+color:#F5F6CE;
+text-shadow:2px 2px 1px #000;
+
+	}
+
+.greynext a p {
+font-size:15px;
+text-align:justify;	
+color:#fff;
+}
+
+#nextsec img {
+	max-width:100%;
+	float:left;
+	border:4px solid #fff;
+	margin-bottom:10px;
+	box-shadow:2px 2px 1px #000;
+	}
+
+.greynext {
+max-width:100%;
+margin:0 auto;
+width:220px;
+float:left;
+padding:0px 5.5% 0px 0px;
+position:relative;
+left:90px
+}
+
+#nextsec span img{
+max-width:100%;
+border:none;
+box-shadow:none;
+position:relative;
+bottom:260px;
+}
+
+#playactive {
+max-width:100%;
+position:relative;
+left:90px;
+bottom:10px;
+
+}
+
+#play {
+max-width:100%;
+position:relative;
+left:24px;
+bottom:10px;
+}
+
+#playactive:hover {
+z-index:1;
+}
+
+#play:hover {
+z-index:-1;
+}
+
+/* CONTACT PAGE */
+#main-content-contact h1 {
+	font-family:'Lilita',Sans-serif;
+	font-weight:700;
+	padding:20px 10px 10px 30px;
+	width:380px;
+	}
+#main-content-contact h2 {
+	padding-left:30px;
+	font-family:'Lilita',Sans-serif;
+	font-weight:700;
+	width:380px;
+}
+#main-content-contact p {
+	line-height:1.5;
+	font-family:'Lilita',Sans-serif;
+	font-weight:400;
+	padding:10px 10px 10px 30px;
+	width:350px;
+	text-align:justify;
+	}
+#esquerda {
+float:left;
+}
+#direita {
+width:310px;
+float:left;
+padding:20px 10px 10px 5px;
+}
+.fb-like-box {
+padding-bottom:10px;
+}
+/* FOOTER */
+
+#footer {
+	background-color:#ccc;
+	height:40px;
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	}
+
+#footer ul {
+	padding-top:10px;
+	}
+	
+#footer ul li {
+	list-style-type:none;
+	display:inline;
+	padding:2em;
+	font-size:13px;
+		}
+		
+#footer ul li a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration:none;
+	color:#B40404;
+	}
+
+#footer ul li a:hover {
+	color:#000;
+	}
+
+/* LIKE BUTTONS */
